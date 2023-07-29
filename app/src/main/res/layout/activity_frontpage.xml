@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ind"
+    tools:context=".frontpage">
+
+     <Button
+         android:id="@+id/Buttonn"
+         android:layout_width="270dp"
+         android:layout_height="80dp"
+         android:gravity="center"
+         android:backgroundTint="@color/orange"
+         android:text="States of India"
+         android:textSize="25sp"
+         app:cornerRadius="27dp" />
+</RelativeLayout>
