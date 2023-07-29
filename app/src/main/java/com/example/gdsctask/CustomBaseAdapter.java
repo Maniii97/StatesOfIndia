@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 public class CustomBaseAdapter extends BaseAdapter{
     Context context;
-    String states[];
-    int listImages[];
+    String[] states;
+    int[] listImages;
 
     LayoutInflater inflater;
     public CustomBaseAdapter(Context context,String [] States,int [] images){
